@@ -1,0 +1,148 @@
+body {
+    font-family: helvetica;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#container-payment {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px 0px rgba(85,89,100,0.75);
+    border-radius: 5px;
+    padding: 40px;
+    position: absolute;
+    width: 700px;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    color: #3B4560;
+    font-size: 24px;
+    font-weight: 100;
+    float: left;
+}
+
+.price {
+    float: right;
+    color: #27B1EA;
+    font-size: 40px;
+    font-weight: lighter;
+    text-align: 100;
+    text-align: right;
+}
+
+.hr {
+    height: 1px;
+    background-color: #E0E1E5;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+#container-input {
+    width: 300px;
+    float: left;
+}
+
+
+input {
+    border: solid 1px #ABB0C0;
+    font-size: 16px;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    color: #3B4560;
+    width: calc(100% - 23px);
+    display: block;
+    margin-bottom: 30px;
+}
+
+input:focus {
+    outline: none;
+    border: solid 1px #27B1EA;
+}
+
+.mini-input {
+    width: 30%!important;
+    display: inline-block!important;
+    margin-bottom: 0px!important;
+}
+
+.date {
+    margin-left: 30px!important;
+    float: right;
+}
+
+#container-card {
+    display: inline-block;
+    float: right;
+}
+
+/*.card-visa{
+    width: calc( 100% - 40px);
+    height: 140px;
+    background-color: #0054A4;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.card-visa img {
+    text-align: right!important;
+    float: right;
+}*/
+
+.info {
+    background-image: url(../images/info.svg);
+    background-position: 75px;
+    background-repeat: no-repeat;
+}
+
+#container-secure {
+    color: #ABB0C0;
+    font-size: 12px;
+    float: left;
+    width: 300px;
+    margin-top: 50px;
+}
+
+#container-secure img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+#textsecure {
+    background-color: #ea2470;
+}
+
+#button-pay{
+    color: #ffffff;
+    background-color: #27B1EA;
+    border: none;
+    width: 286px;
+    float: right;
+    margin-top: 40px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 4px;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+#button-pay:hover {
+cursor: pointer;
+background-color: #57CCFC;
+}
+
+#button-pay:active {
+outline: none;
+border: none;
+}
+
+#button-pay:focus {outline:0;}
